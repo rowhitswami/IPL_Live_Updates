@@ -9,11 +9,14 @@ Notification will contain:
 - Activity of the ball (Eg. DJ Bravo to HH Pandya, Six)
 - Current score with overs 
 
-**Screenshot**
+**Screenshots**
+
 Linux
+
 ![Linux Notification](Screenshot/demo-1.png)
 
 Windows
+
 ![Windows Notification](Screenshot/demo-2.png)
 
 ## Prerequisites
