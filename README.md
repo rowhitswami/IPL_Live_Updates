@@ -1,3 +1,7 @@
+# Get Live IPL Updates
+
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
 ## Description
 Run this script to get live notification on every **Four**, **Six** and fall of **Wicket** of Indian Premier League matches right on your desktop.
 Notification will contain:
