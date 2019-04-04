@@ -6,8 +6,11 @@ Notification will contain:
 - Current score with overs 
 
 **Screenshot**
-![Notification](Screenshot/demo.png)
+Linux
+![Linux Notification](Screenshot/demo-1.png)
 
+Windows
+![Windows Notification](Screenshot/demo-2.png)
 
 ## Prerequisites
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. 
@@ -24,14 +27,20 @@ to upgrade Python
 ```
 pip install python -- upgrade
 ```
-Additional Packages that are required are: [beautifulsoup4](https://pypi.org/project/beautifulsoup4/), [plyer 1.4.0](https://pypi.org/project/plyer/),\
-You can download them using [pip](https://pypi.org/project/pip/)
+**Important**
+Shoot this command to install additional required packages:
 ```
-pip install beautifulsoup4 plyer
+pip install argparse beautifulsoup4 html5lib plyer requests
 ```
 
 ## Run Script
 Open Terminal or Command Prompt and type
 ```
 python Get_Live_IPL_Updates.py
+```
+
+## Troubleshooting
+If you are not getting current score along with the notification, you just need to pass an argument with the command.
+```
+python Get_Live_IPL_Updates.py --team=B
 ```
